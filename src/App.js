@@ -9,9 +9,8 @@ function App() {
     setName(event.target.value);
   }
   function handleSubmit(event) {
-    setHeading(name);
-
     event.preventDefault();
+    setHeading(name);
   }
 
   function handleMouseOver() {
